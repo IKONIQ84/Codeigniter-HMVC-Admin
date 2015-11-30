@@ -7,9 +7,9 @@ Quando finalizado, este CRUD quando for instalado, já terá o Codeigniter com H
 
 ----
 ## Versão/Version
-0.1 - PT-BR - Versão sem instalações. Ainda não completa.
+0.1 - PT-BR - Versão sem instalações. Ainda não completa. (não é versão beta)
 
-0.1 - EN-US - Version without instalation . Not Complete Yet.
+0.1 - EN-US - Version without instalation . Not Complete Yet. (not is beta version)
 
 
 ----
