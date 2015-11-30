@@ -21,6 +21,7 @@ Plugins utilizados na criação deste pequeno CRUD inicial
 * [FontAwesome] - Plugins de Web Fontes
 * [HMVC Modular Codeigniter] - Modularização do Codeigniter
 * [Ion Auth 2] - Library para segurança em gerenciamento de usuários
+* [SB Admin 2] - Admin Template with Bootstrap
 * [CodeIgniter Language PT-BR] - Arquivos de Linguagem traduzidos para PT-BR
 * [Normalize CSS] - Arquivo CSS de reset de padrões
 * [Animate CSS] - Arquivo CSS para fazer firulas de animações
@@ -48,6 +49,7 @@ MIT
    [FontAwesome]: <http://fontawesome.io/>
    [HMVC Modular Codeigniter]: <https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc/>
    [Ion Auth 2]: <http://github.com/benedmunds/CodeIgniter-Ion-Auth/>
+   [SB Admin 2]: <http://startbootstrap.com/template-overviews/sb-admin-2/>
    [Codeigniter Language PT-BR]: <https://github.com/CIBr/CodeIgniter-Portuguese-BR>
    [Normalize CSS]: <https://github.com/necolas/normalize.css/>
    [Animate CSS]: <https://daneden.github.io/animate.css/>
