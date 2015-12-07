@@ -26,7 +26,7 @@ Plugins utilizados na criação deste pequeno CRUD inicial
 * [Normalize CSS] - Arquivo CSS de reset de padrões
 * [Animate CSS] - Arquivo CSS para fazer firulas de animações
 * [Jquery] - Framework Javascript
-* [Checkbox Style] - Estilo no Checkbox - por Willian Justen
+* [Checkbox Style] - Estilo no Checkbox - por [Willian Justen]
 
 ----
 ## Instalação
@@ -41,7 +41,8 @@ Plugins utilizados na criação deste pequeno CRUD inicial
 Após ter feito os passos de **instalação**, você já conseguirá logar com os dados abaixo: 
 
 ### Login
-**Usuário:** `admin@admin.com`
+**Usuário:** `admin@admin.com` 
+
 **Senha:** `password`
 
 
@@ -68,7 +69,7 @@ MIT
    [Animate CSS]: <https://daneden.github.io/animate.css/>
    [Jquery]: <http://jquery.com/>
    [Checkbox Style]: <http://willianjusten.com.br/criando-um-switch-button-com-css/>
-
+   [Willian Justen]: <http://www.willianjusten.com.br/>
 
 [//]: # (arquivo editado pelo site: http://prose.io/)
 
