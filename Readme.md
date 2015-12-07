@@ -32,8 +32,9 @@ Plugins utilizados na criação deste pequeno CRUD inicial
 ## Instalação
 1. Descomprimir o conteúdo do arquivo zip
 2. Criar o banco de dados com os dados desejados
-3. Configurar os dados no arquivo "application/config/database.php"
-4. Entrar na pasta "_sql" e instalar os arquivos na ordem descrita
+3. Configurar os dados no arquivo `"application/config/database.php"`
+
+4. Entrar na pasta `"_sql"` e instalar os arquivos na ordem descrita
 
 ----
 ## Como Usar
