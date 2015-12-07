@@ -7,9 +7,9 @@ Quando finalizado, este CRUD quando for instalado, já terá o Codeigniter com H
 
 ----
 ## Versão/Version
-0.1 - PT-BR - Versão sem instalações. Ainda não completa. (não é versão beta)
+0.2 - PT-BR - Versão sem instalações. Ainda não completa. (não é versão beta)
 
-0.1 - EN-US - Version without installation . Not Complete Yet. (not is beta version)
+0.2 - EN-US - Version without installation . Not Complete Yet. (not is beta version)
 
 
 ----
@@ -26,6 +26,7 @@ Plugins utilizados na criação deste pequeno CRUD inicial
 * [Normalize CSS] - Arquivo CSS de reset de padrões
 * [Animate CSS] - Arquivo CSS para fazer firulas de animações
 * [Jquery] - Framework Javascript
+* [Checkbox Style] - Estilo no Checkbox - por Willian Justen
 
 ----
 ## Instalação
@@ -33,6 +34,18 @@ Plugins utilizados na criação deste pequeno CRUD inicial
 2. Criar o banco de dados com os dados desejados
 3. Configurar os dados no arquivo "application/config/database.php"
 4. Entrar na pasta "_sql" e instalar os arquivos na ordem descrita
+
+----
+## Como Usar
+
+Após ter feito os passos de **instalação**, você já conseguirá logar com os dados abaixo: 
+
+### Login
+**Usuário:** `admin@admin.com`
+**Senha:** `password`
+
+
+
 
 ----
 ## License
@@ -54,6 +67,7 @@ MIT
    [Normalize CSS]: <https://github.com/necolas/normalize.css/>
    [Animate CSS]: <https://daneden.github.io/animate.css/>
    [Jquery]: <http://jquery.com/>
+   [Checkbox Style]: <http://willianjusten.com.br/criando-um-switch-button-com-css/>
 
 
 [//]: # (arquivo editado pelo site: http://prose.io/)

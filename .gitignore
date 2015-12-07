@@ -14,6 +14,14 @@ user_guide_src/cilexer/dist/*
 user_guide_src/cilexer/pycilexer.egg-info/*
 /vendor/
 
+
+# cfg do ftp e cfg do db
+ftpsync.settings
+
+application/config/database.php
+
+application/config/config.php
+
 # IDE Files
 #-------------------------
 /nbproject/

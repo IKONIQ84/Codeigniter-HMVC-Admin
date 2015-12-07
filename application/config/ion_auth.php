@@ -82,8 +82,19 @@ $config['salt_prefix']    = version_compare(PHP_VERSION, '5.3.7', '<') ? '$2a$' 
  | The controller should check this function and act
  | appropriately. If this variable set to 0, there is no maximum.
  */
-$config['site_title']                 = "Example.com";       // Site Title, example.com
-$config['admin_email']                = "admin@example.com"; // Admin Email, admin@example.com
+
+
+/**
+* @author Vitor de Sousa
+* 
+**/
+$CI =& get_instance();
+$CI->load->model('administrator/administrator_model');
+$configs = $CI->administrator_model->getConfigs();
+
+
+$config['site_title']                 =	$configs['site_nomeConfigs'];       // Site Title, example.com
+$config['admin_email']                = $configs['mail_enviaConfigs']; // Admin Email, admin@example.com
 $config['default_group']              = 'members';           // Default group, use name
 $config['admin_group']                = 'admin';             // Default administrators group, use name
 $config['identity']                   = 'email';             // You can use any unique column in your table as identity column. The values in this column, alongside password, will be used for login purposes
@@ -120,8 +131,18 @@ $config['identity_cookie_name'] = 'identity';
  */
 $config['use_ci_email'] = FALSE; // Send Email using the builtin CI email class, if false it will return the code and the identity
 $config['email_config'] = array(
-	'mailtype'			=>		'html',
+	'mailtype'				=>			'html',
+	//'smtp_crypto'			=>			'ssl',
+	//'validate'				=>			TRUE,
+	'smtp_host'				=>			$configs['mail_smtpConfigs'],
+	'smtp_user'				=>			$configs['mail_enviaConfigs'],
+	'smtp_pass'				=>			$configs['mail_senhaConfigs'],
+	'smtp_port'				=>			$configs['mail_portaConfigs'],
+	'protocol'				=>			'smtp',
+	'charset'				=>			'utf-8',
+	'newline'				=>			'\r\n',
 );
+
 
 /*
  | -------------------------------------------------------------------------

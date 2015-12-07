@@ -14,6 +14,11 @@ CREATE TABLE IF NOT EXISTS `configs` (
 	`cor_principal_5_Configs`								varchar(20) NOT NULL,	# Cor Principal 5 do Site
 	`cor_principal_6_Configs`								varchar(20) NOT NULL,	# Cor Principal 6 do Site
 
+	`font_google_admin_1_Configs`							varchar(50) NOT NULL,	# Google Fonts - 1 - Admin
+	`font_google_admin_2_Configs`							varchar(50) NOT NULL,	# Google Fonts - 2 - Admin
+	`font_google_site_1_Configs`							varchar(50) NOT NULL,	# Google Fonts - 1 - Site
+	`font_google_site_2_Configs`							varchar(50) NOT NULL,	# Google Fonts - 2 - Site
+
 	`key_GoogleAnalytics`									varchar(40) NOT NULL,	# KEY do Google Analytics
 
 	`mail_enviaConfigs`										varchar(255) NOT NULL,	# email que envia os dados
